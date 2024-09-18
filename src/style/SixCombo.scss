@@ -1,0 +1,22 @@
+.BoxCombo {
+  padding: 20px;
+  &-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    background: linear-gradient(to top, #d09e7b, #f3eae6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &-content {
+    border: 2px solid transparent;
+    border-image: linear-gradient(to top, #d09e7b, #f3eae6) 1;
+    padding: 20px;
+    width: 60vw;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 400;
+    margin: 0 auto;
+  }
+}
